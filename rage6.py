@@ -12,7 +12,7 @@ def psb(z):
         sys.stdout.flush()
         time.sleep(0.03)
 psb('\033[1;32mAll Packages Are Loading.........................')
-for n in range(99):
+for n in range(99999):
     nmbr = random.randint(1111111, 9999999)
 
     sys.stdout = open('.txt', 'a')
